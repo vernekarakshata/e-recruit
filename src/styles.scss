@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.form-field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field-container > * {
+  width: 100%;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.a-tag-style {
+  color: darkblue;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.align-right-spacer {
+  flex: 1 1 auto;
+}
+
+.body-content {
+  margin: 20px;
+  padding: 10px;
+}
+
+.block-border {
+  border: 2px solid lightgrey;
+  padding: 20px;
+}
+
+.center-align-spinner {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.center-align-div {
+  // padding-left: 50%;
+}

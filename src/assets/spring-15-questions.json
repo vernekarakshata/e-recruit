@@ -1,0 +1,57 @@
+[
+    {
+       "question":"What is spring?",
+       "options":{
+          "A":"Spring is an open source development framework for enterprise Java.",
+          "B":"Spring is a proprietary framework.",
+          "C" : "Spring is a development framework for .Net applications.",
+          "D": "Spring is a development framework for PHP based applications."
+       },
+       "solution":"A",
+       "score":1
+    },
+    {
+       "question":"What types of Dependency injection does spring supports?",
+       "options":{
+          "A":"Constructor based, Setter based",
+          "B":"Constructor based, Setter based, Getter Based",
+          "C":"Setter based, Getter based, Properties based",
+          "D": "Constructor based, Setter based, Properties based"
+       },
+       "solution":"A",
+       "score": 1
+    },
+    {
+        "question":"What is true about <props> collection configuration elements?",
+        "options":{
+           "A":"This helps in wiring a list of values, allowing duplicates.",
+           "B":"This helps in wiring a list of values but without any duplicates.",
+           "C":"This can be used to inject a collection of name-value pairs where name and value can be of any type.",
+           "D": "This can be used to inject a collection of name-value pairs where the name and value are both Strings."
+        },
+        "solution":"D",
+        "score": 2
+     },
+     {
+        "question":"What is no mode of autowiring?",
+        "options":{
+           "A":"Default setting which means no autowiring and you should use explicit bean reference for wiring.",
+           "B":"Autowiring by property name.",
+           "C":"Spring first tries to wire using autowire by constructor, if it does not work, Spring tries to autowire by byType.",
+           "D": "Similar to byType, but type applies to constructor arguments."
+        },
+        "solution":"A",
+        "score": 2
+     },
+     {
+        "question":"What is aspect?",
+        "options":{
+           "A":"Aspect is a way to do the dependency injection.",
+           "B":"A module which has a set of APIs providing cross-cutting requirements.",
+           "C":"Aspect is used to log information of application.",
+           "D": "Aspect represents properties of spring based application."
+        },
+        "solution":"B",
+        "score": 1
+     }
+ ]

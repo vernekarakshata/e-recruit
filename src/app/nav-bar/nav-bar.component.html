@@ -1,0 +1,27 @@
+<ng-container *ngIf="isUserLoggedIn; else displayWhenUserNotLoggedInTemplate">
+    <div >
+      <mat-toolbar color="primary">
+          <span>e-recruit</span>
+         <span class="align-right-spacer"></span>
+         <mat-icon>favorite</mat-icon>
+         <mat-icon>share</mat-icon>
+         <span class="shift-right"></span>
+         <button mat-button [matMenuTriggerFor]="menu"><mat-icon>manage_accounts</mat-icon></button>
+         <span class="shift-right"></span>
+         <label> Welcome {{ loggedInUser }}</label>
+         
+        </mat-toolbar>
+
+
+        <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item (click)="signOutUser()">Sign Out</button>
+        </mat-menu>
+
+   </div>
+  </ng-container>
+  <ng-template #displayWhenUserNotLoggedInTemplate>
+    <div  class="header-container shadow">
+      <h1 class="app-login-logo-text">e-recruit</h1>
+   </div>
+  </ng-template>

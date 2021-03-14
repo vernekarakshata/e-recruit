@@ -1,0 +1,22 @@
+
+      {
+          "series": [50, 40, 10],
+      "chart": {
+        "type": "donut",
+        "width" : "80%"
+      },
+      "labels": ["Java", "Spring", "Microservices"],
+      "responsive": [
+        {
+          "breakpoint": 480,
+          "options": {
+            "chart": {
+              "width": 200
+            },
+            "legend": {
+              "position": "bottom"
+            }
+          }
+        }
+      ]
+    }

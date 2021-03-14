@@ -1,0 +1,51 @@
+<div class="body-content">
+  <h1>Job Application Status</h1>
+  <div >
+    <div  class="form-field-container">
+      <mat-form-field appearance="outline">
+          <mat-label>Job Profile</mat-label>
+          <mat-select #data>
+            <mat-option *ngFor="let job of jobsApplied" [value]="job">
+              {{job}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <div class="text-align-right">
+          <button mat-raised-button color="primary" (click)="checkStatus(data.value)" >Check Status</button>
+      </div>
+  </div>
+
+  <br><br>
+
+  <div *ngIf="isQuizUnAnswered;">
+    <mat-card>
+      <label>For the current profile the quiz is not yet attempted. Please attempt the quiz to be eligible for the profile</label>
+      <br><br><br>
+      <div class="text-align-center">
+        <button mat-raised-button color="primary" (click)="answerQuiz()" >Answer Quiz</button>
+    </div>
+    </mat-card>
+    
+  </div>
+
+  <div *ngIf="quizAnswered">
+    <mat-card>
+      <h2>Assessment Attempted Status</h2>
+      <h4> Please find your result distribution of the quiz attempted</h4>
+      <br>
+      <div class="text-align-center">
+        <button mat-raised-button color="primary" (click)="showResults()" >Check Results</button>
+    </div>
+    <br>
+    </mat-card>
+  </div>
+  
+
+
+</div>
+  
+    
+</div>
+
+
+

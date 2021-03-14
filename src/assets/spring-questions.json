@@ -1,0 +1,262 @@
+[
+    {
+       "question":"What is spring?",
+       "options":{
+          "A":"Spring is an open source development framework for enterprise Java.",
+          "B":"Spring is a proprietary framework.",
+          "C" : "Spring is a development framework for .Net applications.",
+          "D": "Spring is a development framework for PHP based applications."
+       },
+       "solution":"A",
+       "score":1
+    },
+    {
+       "question":"What types of Dependency injection does spring supports?",
+       "options":{
+          "A":"Constructor based, Setter based",
+          "B":"Constructor based, Setter based, Getter Based",
+          "C":"Setter based, Getter based, Properties based",
+          "D": "Constructor based, Setter based, Properties based"
+       },
+       "solution":"A",
+       "score": 1
+    },
+    {
+        "question":"What is true about <props> collection configuration elements?",
+        "options":{
+           "A":"This helps in wiring a list of values, allowing duplicates.",
+           "B":"This helps in wiring a list of values but without any duplicates.",
+           "C":"This can be used to inject a collection of name-value pairs where name and value can be of any type.",
+           "D": "This can be used to inject a collection of name-value pairs where the name and value are both Strings."
+        },
+        "solution":"D",
+        "score": 2
+     },
+     {
+        "question":"What is no mode of autowiring?",
+        "options":{
+           "A":"Default setting which means no autowiring and you should use explicit bean reference for wiring.",
+           "B":"Autowiring by property name.",
+           "C":"Spring first tries to wire using autowire by constructor, if it does not work, Spring tries to autowire by byType.",
+           "D": "Similar to byType, but type applies to constructor arguments."
+        },
+        "solution":"A",
+        "score": 2
+     },
+     {
+        "question":"What is aspect?",
+        "options":{
+           "A":"Aspect is a way to do the dependency injection.",
+           "B":"A module which has a set of APIs providing cross-cutting requirements.",
+           "C":"Aspect is used to log information of application.",
+           "D": "Aspect represents properties of spring based application."
+        },
+        "solution":"B",
+        "score": 1
+     },
+     {
+        "question":"What is Weaving?",
+        "options":{
+           "A":"Weaving is the process of injecting values in objects to create an advised object.",
+           "B":"Weaving is the process of linking aspects with other application types or objects to create an advised object.",
+           "C":"This is used to inject values in objects.",
+           "D": "Weaving is used to check object dependencies."
+        },
+        "solution":"B",
+        "score": 2
+     },
+     {
+        "question":"Core container has AOP as one of its module.",
+        "options":{
+           "A":"True",
+           "B":"False"           
+        },
+        "solution":"B",
+        "score": 1
+     },
+     {
+        "question":"What stands true for spring framework?",
+        "options":{
+           "A":"Spring framework is a light weight framework.",
+           "B":"Spring framework is a heavy weight framework."
+        },
+        "solution":"A",
+        "score": 1
+     },
+     {
+        "question":"If a bean is scoped to HTTP session, scope is",
+        "options":{
+           "A":"global-session",
+           "B":"session",
+           "C":"prototype",
+           "D": "request"
+        },
+        "solution":"B",
+        "score": 1
+     },
+     {
+        "question":"What is true about BeanPostProcessor?",
+        "options":{
+           "A":"It is a concrete class.",
+           "B":"It is an interface.",
+           "C":"It is an abstract class.",
+           "D": "None of the above."
+        },
+        "solution":"B",
+        "score": 2
+     },
+     {
+        "question":"Spring HibernateTemplate can simplify your DAO implementation by managing sessions and transactions for you.",
+        "options":{
+           "A":"True",
+           "B":"False" 
+        },
+        "solution":"A",
+        "score": 1
+     },
+     {
+        "question":"An alternative to Spring HibernateTemplate is:-",
+        "options":{
+           "A":"HibernateContext",
+           "B":"Hibernate contextual sessions",
+           "C":"All of the mentioned",
+           "D": "None of the mentioned"
+        },
+        "solution":"B",
+        "score": 3
+     },
+     {
+        "question":"Sessionfactory can manage contextual sessions for you and allows you to retrieve them by the:-",
+        "options":{
+           "A":"getSession() method",
+           "B":"getCurrent() method",
+           "C":"getCurrentSession() method",
+           "D": "None of the mentioned"
+        },
+        "solution":"C",
+        "score": 3
+     },
+     {
+        "question":"DAO methods require access to the session factory, which can be injected:-",
+        "options":{
+           "A":"A setter method",
+           "B":"Constructor argument",
+           "C":"None of the mentioned",
+           "D": "All of the mentioned"
+        },
+        "solution":"D",
+        "score": 3
+     },
+     {
+        "question":"DAO methods must be made transactional.",
+        "options":{
+           "A":"True",
+           "B":"False"
+        },
+        "solution":"A",
+        "score": 3
+     },
+     {
+        "question":"Annotation to find a transaction and then fail, complaining that no Hibernate session been bound to the thread.",
+        "options":{
+           "A":"@Transaction",
+           "B":"@Transactional",
+           "C":"@Transactions",
+           "D": "None of the mentioned"
+        },
+        "solution":"B",
+        "score": 3
+     },
+     {
+        "question":"In the bean configuration file for Hibernate (i.e., beans-hibernate.xml), you have to declare a HibernateTransactionManager instance for this application and enable declarative transaction via:-",
+        "options":{
+           "A":"tx:annotation",
+           "B":"tx:annotationdriven",
+           "C":"tx:annotation-driven",
+           "D": "None of the mentioned"
+        },
+        "solution":"C",
+        "score": 3
+     },
+     {
+        "question":"HibernateTemplate will translate the native Hibernate exceptions into exceptions in Spring DataAccessException hierarchy.",
+        "options":{
+           "A":"True",
+           "B":"False"
+        },
+        "solution":"A",
+        "score": 3
+     },
+     {
+        "question":"Annotation for Hibernate exceptions to be translated into Spring DataAccessException for consistent exception handling:-",
+        "options":{
+           "A":"@Translation",
+           "B":"@Repo",
+           "C":"@Repository",
+           "D": "None of the mentioned"
+        },
+        "solution":"C",
+        "score": 2
+     },
+     {
+        "question":"Instance to translate the native Hibernate exceptions into data access exceptions in Spring DataAccessException hierarchy.",
+        "options":{
+           "A":"PersistenceExceptionPostProcessor",
+           "B":" PersistenceExceptionTranslation",
+           "C":"PersistenceException",
+           "D": "PersistenceExceptionTranslationPostProcessor"
+        },
+        "solution":"D",
+        "score": 2
+     },
+     {
+        "question":"You can assign a component name in this annotation and have the session factory autowired by the Spring IoC container with @Autowired.",
+        "options":{
+           "A":"True",
+           "B":"False"
+        },
+        "solution":"A",
+        "score": 2
+     },
+     {
+        "question":"Spring provides to simplify your DAO implementation by managing entitymanagers and transactions for you:-",
+        "options":{
+           "A":"HibernateTemplate",
+           "B":"JpaTemplate",
+           "C":"SpringTemplate",
+           "D": "None of the mentioned"
+        },
+        "solution":"B",
+        "score": 1
+     },
+     {
+        "question":"Annotation used for entity manager injection in EJB components.",
+        "options":{
+           "A":"@PersistenceContext",
+           "B":"@Persistence",
+           "C":"@PersistenceCon",
+           "D": "None of the mentioned"
+        },
+        "solution":"A",
+        "score": 2
+     },
+     {
+        "question":"To use the context injection approach, you can declare an entity manager field in your DAO and annotate it with the @PersistenceContext annotation.",
+        "options":{
+           "A":"True",
+           "B":"False"
+        },
+        "solution":"A",
+        "score": 1
+     },
+     {
+        "question":" JpaTemplate will translate the native JPA exceptions into exceptions in Spring DataAccessException hierarchy.",
+        "options":{
+            "A":"True",
+            "B":"False"
+
+        },
+        "solution":"B",
+        "score": 1
+     }
+ ]

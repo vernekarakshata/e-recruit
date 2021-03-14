@@ -1,0 +1,25 @@
+<div class="body-content">
+  <h1>Job Profiles</h1>
+<h4>Please select your best job profile applicable to you. </h4><br>
+
+<div *ngFor="let item of jobAdvertisements">
+  <mat-card >
+  
+    <mat-card-header>
+      <mat-card-title>{{ item.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{ item.summary}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="text-align-right">
+      <button mat-button (click)="viewJobDescription(item.description)">View Full Description</button>
+      <button mat-button (click)="applyForJobProfile()">Apply</button>
+    </mat-card-actions>
+  </mat-card>
+  <br><br>
+</div>
+  
+</div>
+

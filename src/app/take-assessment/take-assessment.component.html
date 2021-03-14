@@ -1,0 +1,59 @@
+<div class="body-content">
+    <div *ngIf="showStartContent">
+        You will be provided various questions based on the profile selected. <br>
+        It will be MCQ based. You would require to select the best one among the options provided. <br><br>
+    
+        Please note the difficulty level of questions will depend upon the answers attempted. Also each questions will be timed. <br><br>
+
+    <b>All the best for your quiz</b><br><br>
+
+    <div class="text-align-right">
+        <button mat-raised-button color="primary" (click)="startAssessment()">Start Assessment</button>
+    </div>
+    </div >
+
+
+
+    <div *ngIf="showAssessmentQuestions">
+        <div class="question-area">
+            <label class="question-title">Question : {{questionNumber}}</label> <br>
+            {{quiz.question}}
+            <br>
+   
+            <mat-radio-group [(ngModel)]="selectedOption" class="quiz-radio-group">
+                <mat-radio-button class="example-radio-button" *ngFor="let item of quiz.options | keyvalue" [value]="item.key">
+                    {{item.value}}
+                  </mat-radio-button> 
+                  <br>
+            </mat-radio-group>
+            
+            <div *ngIf="questionNumber != 5; else showFinishTemplate">
+                <div class="text-align-right">
+                    <button mat-raised-button color="primary" (click)="displayNextQuestion()">Next</button>
+                </div>
+            </div>
+            <ng-template #showFinishTemplate>
+                <div class="text-align-right">
+                    <button mat-raised-button color="primary" (click)="finishAssement()">Finish</button>
+                </div>
+            </ng-template>
+            
+        </div>
+
+        
+    </div>
+
+    <div *ngIf="showSpinner" >
+        <div class="center-align-spinner" >
+            <mat-spinner></mat-spinner>
+        </div>
+        
+    </div>
+
+    <div *ngIf="showEndContent">
+        Thank you for attempting the quiz. Your response has been recorded with us. <br>
+        You can further check your status in the job application page. 
+    </div>
+      
+</div>
+

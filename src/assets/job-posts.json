@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "title" : "Java Developer",
+        "summary" : "Hands-on experience in web applications development using Java/J2EE, Spring Boot,Spring MVC, Spring Core, Spring Security, Hibernate, RESTFUL Web services.",
+        "description": "Job Description :\r\n\r\n- Should have strong hands-on experience in JUnit, Spring Framework, Spring Boot.\r\n\r\n- Should have experience in Microservices, WebSphere.\r\n\r\n- Very strong in Java 8.\r\n\r\n- Good hands-on Maven projects,\r\n\r\n- Preferred to have experience in Jenkin and CI and CD pipeline.\r\n\r\n- Should have worked in Agile methodologies.\r\n\r\n- Experience in Web development, Responsive UI.\r\n\r\n- Ability to recognize user experience needs and convert them into the design.\r\n\r\n- Strong in Angular 67\r\n\r\n- Strong in JavaScript\r\n\r\n- Knowledge Reactive programming (RxJs)\r\n\r\n- Experience in CSS and CSS preprocessors like SCSS, LESS\r\n\r\n- Knowledge in REST services\r\n\r\n- Basic knowledge in HTML, CSS\r\n\r\n- Coordinate the workflow between the UX team and front end developers\r\n\r\n- Knowledge of HTML5 and writing cross-browser compatible code.\r\n\r\n- Experience in Microservices\r\n\r\n- Experience with unit testing frameworks protractor, jasmine, and karma",
+        "topic": "Spring"
+    },
+    {
+        "id" : 2,
+        "title" : "Java Developer - Microservices Architecture/Spring Boot",
+        "summary" : "Hiring full-time employees to place them with our reputed business stakeholders deputation",
+        "description": "We are hiring full-time employees to place them with our reputed business stakeholders deputation.\r\n\r\nAs a part of that, we are recruiting Spring Boot Application Developers with the below specs.\r\n\r\nSkill : Java, Spring, Spring Boot,Microservices\r\n\r\nEXP : 3yrs - 10 Yrs\r\n\r\nJob Location : Hyderabad\r\n\r\nJob Description :\r\n\r\n- Should have strong hands-on experience in JUnit, Spring Framework, Spring Boot.\r\n\r\n- Should have experience in Microservices, WebSphere.\r\n\r\n- Very strong in Java 8.\r\n\r\n- Good hands-on Maven projects,\r\n\r\n- Preferred to have experience in Jenkin and CI and CD pipeline.\r\n\r\n- Should have worked in Agile methodologies.\r\n\r\n- Experience in Web development, Responsive UI.\r\n\r\n- Ability to recognize user experience needs and convert them into the design.\r\n\r\n- Strong in Angular 67\r\n\r\n- Strong in JavaScript\r\n\r\n- Knowledge Reactive programming (RxJs)\r\n\r\n- Experience in CSS and CSS preprocessors like SCSS, LESS\r\n\r\n- Knowledge in REST services\r\n\r\n- Basic knowledge in HTML, CSS\r\n\r\n- Coordinate the workflow between the UX team and front end developers\r\n\r\n- Knowledge of HTML5 and writing cross-browser compatible code.\r\n\r\n- Experience in Microservices\r\n\r\n- Experience with unit testing frameworks protractor, jasmine, and karma",
+        "topic": "Spring"
+    },
+    {
+        "id" : 3,
+        "title" : "Front End UI Developer (React Angular)",
+        "summary" : "Hiring frontend ui developers.",
+        "description": "6 15 years of Experience\r\nHave experience on popular Front end developer technologies such as:\r\nWeb fundamentals like HTML, JavaScript and CSS.\r\nJavaScript frameworks like React JS, AngularJS, or Ember, etc.\r\nDatabase technologies like MySQL, Oracle and MongoDB.\r\nAbility to understand requirements and map to technical design.",
+        "topic": "Angular"
+    },
+    {
+        "id" : 4,
+        "title" : "Full Stack Developer - Angular / Vue / React Native / Postgres / Go",
+        "summary" : "Fresher to 5 years of experience for Full Stack Developer",
+        "description": "Proven experience as a Full Stack Developer or similar role\r\nHands-on experience of multiple front-end languages and libraries (HTML5, JavaScript, jQuery)\r\nMultiple back-end languages (PHP, Go Lang,) and JavaScript frameworks (Angular, Vue, React, Node.js)\r\nFamiliarity with databases (Postgres, MySQL), web servers (Nginx) and UI/UX design\r\nAn analytical mind\r\nServer management and deployment for the relevant environment\r\nProficiency with GIT\r\nExperience with back end API development",
+        "topic": "Angular"
+    },
+    {
+        "id" : 5,
+        "title" : "Backend Developer Python Django",
+        "summary" : "Backend Developer Python Django developer ",
+        "description": "Backend Developer Python Django The Backend (Python/Django) developer will be responsible to build and enhance REST API, collaboration and role based access control functionalities in our products while maintaining data integrity in various systems.\r\n\r\nHe/She will play a critical role in our product development\r\n\r\n. Our engineering team works on developing a range of innovative products to facilitate regulatory work flow of medical device companies.\r\n\r\nA suitable candidate is one willing to work in a tight schedule of a startup and experienced in building robust applications and considers performance to be the key metric in the application.\r\n\r\nResponsibilities :\r\n\r\n- Design, develop and maintain REST APIs for platform\r\n\r\n- Design and develop role based access control for various resources\r\n\r\n- Integration of user-facing elements developed by front-end developers with server side logic.\r\n\r\n- Data migration, transformation, and scripting\r\n\r\n- Design and develop web socket based servers",
+        "topic": "Python"
+    }
+]
+    

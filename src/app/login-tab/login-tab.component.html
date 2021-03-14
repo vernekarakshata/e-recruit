@@ -1,0 +1,13 @@
+<div class="center-align">
+    <div *ngIf="isSignIn; else displaySignUpTemplate">
+       <app-sign-in></app-sign-in>
+       <br><br>
+       <label>Don't have an account? <a class="a-tag-style" (click)="changeSignMode()">Sign Up</a></label>
+    </div>
+    <ng-template #displaySignUpTemplate>
+       <app-sign-up></app-sign-up>
+       <br><br>
+       <label>Already have an account? <a class="a-tag-style"  (click)="changeSignMode()">Sign In</a></label>
+    </ng-template>
+ </div> 
+ 
